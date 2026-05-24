@@ -19,7 +19,7 @@ export default function Footer() {
                 </div>
               )}
               <span className="font-bold text-xl tracking-tight text-white">
-                {settings?.namaSekolah || 'SDN Harapan Bangsa'}
+                {settings?.namaSekolah || 'UPTD SDN MRECAH 2'}
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-md">
@@ -41,22 +41,22 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-blue-500 shrink-0 mt-0.5" />
-                <span>{settings?.alamatSekolah || 'Jl. Pendidikan No. 123, Kota Pelajar, Indonesia 12345'}</span>
+                <span>{settings?.alamatSekolah || 'Jl. Raya Mrecah, Ds. Mrecah, Kec. Tanah Merah, Kab. Bangkalan'}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-blue-500 shrink-0" />
-                <span>{settings?.teleponSekolah || '(021) 1234-5678'}</span>
+                <span>{settings?.teleponSekolah || '(082) 139782233'}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-500 shrink-0" />
-                <span>{settings?.emailSekolah || 'info@sdnharapanbangsa.sch.id'}</span>
+                <span>{settings?.emailSekolah || 'sdnmrecah2@gmail.com'}</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t border-slate-800 text-center text-sm text-slate-500 flex flex-col md:flex-row justify-between items-center">
-          <p>&copy; {new Date().getFullYear()} {settings?.namaSekolah || 'SDN Harapan Bangsa'}. Hak Cipta Dilindungi.</p>
+          <p>&copy; {new Date().getFullYear()} {settings?.namaSekolah || 'UPTD SDN MRECAH 2'}. Hak Cipta Dilindungi.</p>
           <p className="mt-2 md:mt-0">Sistem PPDB Online Terintegrasi</p>
         </div>
       </div>
