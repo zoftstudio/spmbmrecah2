@@ -75,10 +75,10 @@ const getInitialMockSettings = (): AppSettings => {
     }
   }
   return {
-    namaSekolah: "SDN Harapan Bangsa",
-    alamat: "Jl. Pendidikan No. 123, Kota Pelajar, Indonesia 12345",
-    telepon: "(021) 1234-5678",
-    email: "info@sdnharapanbangsa.sch.id",
+    namaSekolah: "UPTD SDN MRECAH 2",
+    alamat: "Jl. Raya mrecah, Desa Mrecah, Kecamatan Tanahmerah Kabupaten Bangkalan",
+    telepon: "(082) 139782233",
+    email: "sdnmrecah2@gmail.com",
     deskripsi: "Mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan siap menghadapi tantangan masa depan dengan pendidikan berkualitas.",
     statusPendaftaran: "Buka",
     persyaratanDaftarUlang: "1. Membawa Bukti Kelulusan yang dicetak\n2. Membawa Fotokopi Akta Kelahiran (2 lembar)\n3. Membawa Fotokopi Kartu Keluarga (2 lembar)\n4. Membawa Pas Foto 3x4 (4 lembar)\n5. Melakukan pembayaran administrasi awal",
